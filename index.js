@@ -11,6 +11,7 @@ var swiper = new Swiper(".mySwiper", {
     },
   });
 
+  
 // animation section //
 
   function reveal() {
