@@ -956,6 +956,10 @@ details {
         flex-direction: column;
        
     }
+    .cc {
+        display: flex;
+        flex-direction: column-reverse;
+    }
     .other-pic {
         width: 100%;
         
