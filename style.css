@@ -7,6 +7,7 @@
     outline: none;
     text-decoration: none;
     font-family: 'Times New Roman', Times, serif;
+    
 }
 body {
     text-decoration: none;
@@ -956,7 +957,7 @@ details {
         flex-direction: column;
        
     }
-    .cc {
+    .ww {
         display: flex;
         flex-direction: column-reverse;
     }
