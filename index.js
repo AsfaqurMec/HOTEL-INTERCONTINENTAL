@@ -46,7 +46,7 @@ menu.onclick = () =>{
 // sign in form  //
 
 const weaper = document.querySelector('.form-control');
-const btn = document.querySelector('.but2');
+const btn = document.querySelector('#but');
 const bd = document.querySelector('.bd');
 weaper.addEventListener('click',()=>{
      weaper.classList.remove('active');

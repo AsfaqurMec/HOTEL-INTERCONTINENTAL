@@ -12,6 +12,8 @@
 </head>
 
 <body>
+
+  
 <!--upper nav start-->
 
     <header class="header-section">
@@ -27,7 +29,7 @@
           
            <button class="but1">Join</button>
 
-           <button class="but2">Sign in</button>
+           <button class="but2" id="but">Sign in</button>
 
         </div>
 
@@ -61,7 +63,7 @@
     </div> 
     <div class="nav-list1">
  
-      <a class="nav-link" href="index.html">Sign in / Join</a>
+      <a class="nav-link but" href="index.html">Sign in / Join</a>
          
       <a class="nav-link" href="contact.html">My stays</a>
           
@@ -74,22 +76,22 @@
           
 
      <div>
+      <form action="">
       <label for="">
         country/region
       </label> <br><br>
-      <input type="text" placeholder="Bangladesh"><br><br>
+      <input type="text" placeholder="Bangladesh" required><br><br>
       <label for="">
         language
       </label><br><br>
-      <input type="text" placeholder="English">
+      <input type="text" placeholder="English" required>
+    </form>
      </div>
         
-      
-
   </div> 
 
     <div class="nav-rest">
-          <button class="but4">Sign in/Join</button>
+          <button class="but4" id="but">Sign in/Join</button>
           <i class="fas fa-bars" id="menu-bars"></i>
         </div>
 
@@ -112,10 +114,6 @@
 </div> 
 
   <!--lower nav end  -->  
-  
-  <!-- cover section start -->
-
-<section class="cover-photo">
 
   <div class="cb">
     <div class="form-control">
@@ -124,21 +122,23 @@
           <img class="logo1" src="Screenshot 2023-12-30 182000.png" alt="">
          </div>
         <h2 class="title">Please sign in.</h2> 
+       <form  class="sign1">
         <div>
           <label for="email">Email or member number</label> <br>           
-          <input class="input" type="email" placeholder="email">
+          <input class="input" type="email" placeholder="email" required>
           </div>
           <div>
         <label for="password">PIN/Password</label><br>
-        <input class="input" type="password" placeholder="password">
+        <input class="input" type="password" placeholder="password" required>
         </div>
         <label for=""><input type="checkbox"> Remember Me</label>
        
-        <button type="submit" class="but1">Login</button>
+        <input type="submit" class="btn" value="Login">
         <div>
           <p>Need help with your password?</p>
           <p>Reset password</p>
         </div>
+      </form>
       </div>
       <div class="sign-detail">
         <h3>Not an IHG® One Rewards Member?</h3>
@@ -146,14 +146,21 @@
           rewarding. Enjoy low member-exclusive rates and included
            Wi-Fi. Plus, earn points on every stay and redeem for
             Reward Nights, gift cards, and more.</p>
-            <button type="submit" class="but1">Join Now</button>
+            <input type="submit" class="btn" value="Join Now">
       </div>
         <span class="bd"> <i class="fa-sharp fa-solid fa-xmark" style="color: #000000;"></i></span>  
      </div> 
-</div>
+  </div>
+
+  <!-- cover section start -->
+
+<section class="cover-photo">
+
+  
     <div class="cover-photo-delail">
 
         <h1>InterContinental Dhaka</h1>
+
     </div> 
    
     
